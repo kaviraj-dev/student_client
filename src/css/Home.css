@@ -1,0 +1,108 @@
+.table {
+  width: 60vw;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  background: #34495E;
+  color: #fff;
+  border-radius: .4em;
+  overflow: hidden;
+  margin-bottom: 1vw;
+  }
+  .table-head{
+      background: red;
+  }
+  .table-head th{
+    text-transform: uppercase;
+  }
+  .table tr {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+  }
+  .table th {
+    display: none;
+  }
+  .table td {
+    display: block;
+  }
+  .table td:first-child {
+    padding-top: .5em;
+  }
+  .table td:last-child {
+    padding-bottom: .5em;
+  }
+  .table td:before {
+    content: attr(data-th) ": ";
+    font-weight: bold;
+    width: 9.5em;
+    display: inline-block;
+  }
+  @media (min-width: 480px) {
+    .table td:before {
+      display: none;
+    }
+  }
+  .table th, .table td {
+    text-align: left;
+  }
+  @media (min-width: 480px) {
+    .table th, .table td {
+      display: table-cell;
+      padding: .25em .5em;
+    }
+    .table th:first-child, .table td:first-child {
+      padding-left: 0;
+    }
+    .table th:last-child, .table td:last-child {
+      padding-right: 0;
+    }
+  }
+  
+  .table tr {
+    border-color: #46627f;
+  }
+  .table th, .table td {
+    margin: .5em 1em;
+  }
+  @media (min-width: 480px) {
+    .table th, .table td {
+      padding: 1em !important;
+    }
+  }
+  .table th, .table td:before {
+    color: #dd5;
+  }
+  
+  .searchbox{
+      width: 50vw !important;
+      border-radius: 4px;
+      font-size: 15px;
+  }
+  .search-form{
+    display: flex;
+    justify-content: center;
+  }
+  .resetButton{
+    padding: 0;
+    height: 3.5vw;
+    width: 9vw !important;
+    border-radius: 4px;
+    background: #008CBA;
+    color: white;
+    border: none;
+    margin: 5px 0px 22px 0.9vw;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+.action-button {
+  width: 1;
+  width: 60vw;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 auto;
+}

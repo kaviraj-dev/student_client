@@ -1,0 +1,72 @@
+
+* {box-sizing: border-box}
+
+/* Add padding to container elements */
+.container {
+    padding: 20px;
+    width: 42vw;
+    background: white;
+    bbox-shadow: -2px 1px 23px 8px rgba(38,41,37,0.76);
+    -webkit-box-shadow: -2px 1px 23px 8px rgba(38,41,37,0.76);
+    -moz-box-shadow: -2px 1px 23px 8px rgba(38,41,37,0.76);
+    margin: 3vw auto;
+  }
+
+/* Full-width input fields */
+input[type=text], input[type=password],input[type=date],input[type=number], select {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f7f7f7;
+  font-size: 15px;
+}
+.form-button{
+    display: flex;
+    justify-content: space-around;
+}
+input[type=submit], input[type=reset]{
+    padding: 11px;
+    width: 15vw;
+    border-radius: 4px;
+    background: #008CBA;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=phone]:focus, select:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+
+/* Set a style for all buttons */
+button {
+  background-color: #0eb7f4;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+	font-size:16px;
+	font-family: Montserrat,Arial, Helvetica, sans-serif;
+	border-radius:10px;
+}
+
+button:hover {
+  opacity:1;
+}
+
+
+/* Change styles for signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .signupbtn {
+     width: 100%;
+  }
+}
+

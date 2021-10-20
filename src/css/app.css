@@ -1,0 +1,36 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Avenir;
+    background: #cce0ff;
+}
+/***************** Header Styles ****************/
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 50;
+    padding: 23px 2vw;
+    background: #ECEFF1;
+    border-bottom: 1px solid rgba(5,45,64,.3);
+}
+.nav a {
+    padding: 0 2vw;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/**************** Footer Styles ****************/
+.footer {
+    display: flex;
+    padding: 10px;
+    background: #393939;
+}
+.footer p{
+    font-size: 16px;
+    color: #FFF;
+}
+.footer p span{
+    color: #FFF;
+}
